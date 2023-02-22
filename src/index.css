@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&family=Itim&family=League+Spartan:wght@200&family=Montserrat:wght@300&family=Nunito&family=Open+Sans:wght@300&family=Roboto+Slab:wght@300&display=swap");
+
+:root {
+  --font-base: "Itim", sans-serif;
+  --primary-color: #edf2f8;
+  /* --secondary-color: #3179ac; */
+  --secondary-color: #544179;
+  --extra-secondary-color: #5ab5c9;
+  --black-color: #030303;
+  --lightGray-color: #e4e4e4;
+  --gray-color: #7b7485;
+  --gray-color-dark: #001e46;
+  --brown-color: #46364a;
+  --white-color: #ffffff;
+  --light-purple: #a287f2;
+  --dark-purple: #8681ab;
+  --box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.37);
+  --box-shadow-light: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+html,
+html::before,
+html::after {
+  padding: 0;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+  font-size: 1rem;
+}
+
+html,
+body {
+  min-height: 100vh;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+}
