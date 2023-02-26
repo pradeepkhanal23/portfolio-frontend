@@ -1,7 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&family=Itim&family=League+Spartan:wght@200&family=Montserrat:wght@300&family=Nunito&family=Open+Sans:wght@300&family=Roboto+Slab:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Climate+Crisis&family=Inconsolata:wght@300&family=Itim&family=Ubuntu:wght@400&family=Montserrat:wght@300&family=Nunito&family=Open+Sans:wght@300&family=Tilt+Neon:wght@400&display=swap");
 
 :root {
-  --font-base: "Itim", sans-serif;
+  --font-base: "Tilt Neon", sans-serif;
   --primary-color: #edf2f8;
   /* --secondary-color: #3179ac; */
   --secondary-color: #544179;
@@ -30,7 +30,7 @@ html::after {
   padding: 0;
   margin: 0;
   scroll-behavior: smooth;
-  font-size: 1rem;
+  font-size: 1.1rem;
 }
 
 html,
