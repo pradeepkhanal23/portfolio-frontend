@@ -6,13 +6,31 @@ const SocialMedia = () => {
   return (
     <div className="app__social">
       <div>
-        <BsLinkedin />
+        <a
+          href="https://www.linkedin.com/in/pradeep-khanal-9751ab145/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <BsLinkedin />
+        </a>
       </div>
       <div>
-        <BsGithub />
+        <a
+          href="https://github.com/pradeepkhanal23"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <BsGithub />
+        </a>
       </div>
       <div>
-        <FaFacebookF />
+        <a
+          href="https://www.facebook.com/pradeep.khanal.54"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <FaFacebookF />
+        </a>
       </div>
     </div>
   );
