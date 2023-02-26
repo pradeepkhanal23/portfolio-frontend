@@ -41,7 +41,7 @@ const Footer = () => {
   };
 
   return (
-    <div className="app__footer">
+    <>
       <h2 className="head-text">
         <span className="head-text">Looks Interesting,</span> Then{" "}
         <span className="head-text">Reach Me</span>
@@ -103,8 +103,12 @@ const Footer = () => {
           <h3 className="head-text">Thank you for getting in touch!!</h3>
         </div>
       )}
-    </div>
+    </>
   );
 };
 
-export default AppWrap(MotionWrap(Footer, "footer", "app__primarybg"));
+export default AppWrap(
+  MotionWrap(Footer, "app__footer"),
+  "footer",
+  "app__primarybg"
+);
