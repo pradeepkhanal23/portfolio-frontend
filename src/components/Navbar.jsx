@@ -12,7 +12,10 @@ const Navbar = () => {
         <div className="app__navbar-logo">
           {/* <img src={images.logo} alt="logo" /> */}
           <h1>
-            PRA<span>DEEP</span>
+            <a href="#home">
+              <span style={{ color: "black" }}>PRA</span>
+              <span>DEEP</span>
+            </a>
           </h1>
         </div>
 
