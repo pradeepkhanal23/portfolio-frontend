@@ -5,6 +5,7 @@ import { motion } from "framer-motion";
 
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
+
   return (
     <>
       <nav className="app__navbar">
@@ -16,7 +17,7 @@ const Navbar = () => {
         </div>
 
         <ul className="app__navbar-links">
-          {["home", "about", "contact", "work", "skills"].map((item) => (
+          {["home", "about", "work", "skills", "contact"].map((item) => (
             <li className="app__flex p-text" key={`link-${item}`}>
               <div />
               <a href={`#${item}`}>{item}</a>
@@ -36,7 +37,7 @@ const Navbar = () => {
             >
               <HiX onClick={() => setToggle(false)} />
               <ul>
-                {["home", "about", "contact", "work", "skills"].map((item) => (
+                {["home", "about", "work", "skills", "contact"].map((item) => (
                   <li key={item}>
                     <a
                       href={`#${item}`}
