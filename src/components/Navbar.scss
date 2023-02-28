@@ -16,16 +16,7 @@
   display: flex;
   justify-content: flex-start;
   align-items: center;
-
-  @media screen and (min-width: 1800px) {
-    h1 {
-      font-size: 2rem;
-
-      span {
-        font-size: inherit;
-      }
-    }
-  }
+  cursor: pointer;
 }
 
 .app__navbar-links {
@@ -87,6 +78,7 @@
     width: 70%;
     height: 70%;
     color: var(--white-color);
+    cursor: pointer;
   }
 
   div {

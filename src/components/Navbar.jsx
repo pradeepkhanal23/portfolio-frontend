@@ -11,7 +11,9 @@ const Navbar = () => {
     <>
       <nav className="app__navbar">
         <div className="app__navbar-logo">
-          <Logo />
+          <a href="#home">
+            <Logo />
+          </a>
         </div>
 
         <ul className="app__navbar-links">

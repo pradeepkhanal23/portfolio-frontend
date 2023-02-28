@@ -10,11 +10,11 @@ const App = () => {
     setLoading(true);
     setTimeout(() => {
       setLoading(false);
-    }, 5000);
+    }, 4500);
   }, []);
 
   return (
-    <>
+    <React.StrictMode>
       {loading ? (
         <Loader />
       ) : (
@@ -27,7 +27,7 @@ const App = () => {
           <Footer />
         </div>
       )}
-    </>
+    </React.StrictMode>
   );
 };
 
