@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "./Navbar.scss";
 import { HiMenuAlt4, HiX } from "react-icons/hi";
 import { motion } from "framer-motion";
+import Logo from "./Logo";
 
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
@@ -10,13 +11,7 @@ const Navbar = () => {
     <>
       <nav className="app__navbar">
         <div className="app__navbar-logo">
-          {/* <img src={images.logo} alt="logo" /> */}
-          <h1>
-            <a href="#home">
-              <span style={{ color: "black" }}>PRA</span>
-              <span>DEEP</span>
-            </a>
-          </h1>
+          <Logo />
         </div>
 
         <ul className="app__navbar-links">

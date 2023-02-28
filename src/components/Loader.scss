@@ -1,0 +1,13 @@
+:root {
+  background-color: #544179bd;
+  // background-color: var(--secondary-color);
+  // background-color: rgba(32, 35, 48, 0.765);
+}
+
+.app__loader {
+  background-color: var(--secondar-color);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
