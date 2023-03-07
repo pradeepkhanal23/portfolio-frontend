@@ -18,6 +18,10 @@
   justify-content: flex-start;
   align-items: center;
   cursor: pointer;
+
+  @media screen and (max-width: 500px) {
+    transform: scale(0.8);
+  }
 }
 
 .app__navbar-download {
@@ -38,6 +42,8 @@
   }
 
   @media screen and (max-width: 500px) {
+    padding: 0.2rem 0.4rem;
+    transform: scale(0.8);
   }
 }
 
@@ -97,6 +103,10 @@
   background: var(--secondary-color);
   cursor: pointer;
   // z-index: 10;
+
+  @media screen and (max-width: 500px) {
+    transform: scale(0.8);
+  }
 
   svg {
     width: 70%;
