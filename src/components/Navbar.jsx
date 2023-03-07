@@ -38,7 +38,6 @@ const Navbar = () => {
           <HiMenuAlt4
             onClick={() => {
               setToggle(true);
-              console.log("clicked");
             }}
           />
 
@@ -46,14 +45,14 @@ const Navbar = () => {
             <motion.div
               whileInView={{ x: [300, 0] }}
               transition={{
-                duration: 0.85,
+                duration: 0.8,
                 ease: "easeInOut",
               }}
             >
               <HiX onClick={() => setToggle(false)} />
               <ul>
                 {["home", "about", "work", "skills", "contact"].map((item) => (
-                  <li key={item}>
+                  <li key={item} className="app__flex p-text">
                     <a
                       href={`#${item}`}
                       onClick={() => {
