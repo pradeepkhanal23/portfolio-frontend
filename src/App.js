@@ -4,17 +4,18 @@ import { Navbar, Loader } from "./components";
 import "./App.scss";
 
 const App = () => {
-  const [loading, setLoading] = useState(true);
+  const [loading, setLoading] = useState(false);
 
-  React.useEffect(() => {
-    setLoading(true);
-    setTimeout(() => {
-      setLoading(false);
-    }, 4500);
-  }, []);
+  // React.useEffect(() => {
+  //   setLoading(true);
+  //   setTimeout(() => {
+  //     setLoading(false);
+  //   }, 4500);
+
+  // }, []);
 
   return (
-    <React.StrictMode>
+    <>
       {loading ? (
         <Loader />
       ) : (
@@ -27,7 +28,7 @@ const App = () => {
           <Footer />
         </div>
       )}
-    </React.StrictMode>
+    </>
   );
 };
 

@@ -25,8 +25,18 @@ const Navbar = () => {
           ))}
         </ul>
 
+        <a href="../CV.pdf" className="app__navbar-download" download>
+          Download CV
+        </a>
+
         <div className="app__navbar-menu">
-          <HiMenuAlt4 onClick={() => setToggle(true)} />
+          <HiMenuAlt4
+            onClick={() => {
+              setToggle(true);
+              console.log("clicked");
+            }}
+          />
+
           {toggle && (
             <motion.div
               whileInView={{ x: [300, 0] }}
