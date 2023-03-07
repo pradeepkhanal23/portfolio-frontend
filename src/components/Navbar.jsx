@@ -3,6 +3,7 @@ import "./Navbar.scss";
 import { HiMenuAlt4, HiX } from "react-icons/hi";
 import { motion } from "framer-motion";
 import Logo from "./Logo";
+import resume from "../data/CV.pdf";
 
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
@@ -25,7 +26,11 @@ const Navbar = () => {
           ))}
         </ul>
 
-        <a href="../CV.pdf" className="app__navbar-download" download>
+        <a
+          href={resume}
+          className="app__navbar-download"
+          download="Pradeep's_resume"
+        >
           Download CV
         </a>
 
