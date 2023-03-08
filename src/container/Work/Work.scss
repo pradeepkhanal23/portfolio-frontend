@@ -128,11 +128,15 @@
     background-color: transparent;
 
     div {
-      // background-color: rgba(100, 90, 83, 0.7);
+      height: 50px;
+      width: 50px;
       background-color: rgba(0, 0, 0, 0.6);
 
       svg {
+        width: 28px;
+        height: 28px;
         color: var(--primary-color);
+        box-sizing: border-box;
       }
     }
   }
