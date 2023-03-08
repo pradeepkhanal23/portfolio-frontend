@@ -128,20 +128,11 @@
     background-color: transparent;
 
     div {
-      height: 50px;
-      width: 50px;
-      background-color: rgba(0, 0, 0, 0.6);
+      display: none;
+    }
 
-      a {
-        z-index: 10;
-
-        svg {
-          width: 28px;
-          height: 28px;
-          color: var(--primary-color);
-          box-sizing: border-box;
-        }
-      }
+    svg {
+      display: none;
     }
   }
 }
@@ -163,5 +154,35 @@
     border-radius: 10px;
     top: -30px;
     background-color: #fff;
+  }
+}
+
+.app__works-links-content {
+  position: absolute;
+  top: -118%;
+  left: -1%;
+  display: none;
+  @media screen and (max-width: 800px) {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+    margin-top: 0.7rem;
+
+    div {
+      background-color: rgba(0, 0, 0, 0.5);
+      border-radius: 50%;
+      height: 50px;
+      width: 50px;
+      cursor: pointer;
+
+      svg {
+        width: 90%;
+        height: 90%;
+        color: #fff;
+        padding: 0.6rem;
+      }
+    }
   }
 }

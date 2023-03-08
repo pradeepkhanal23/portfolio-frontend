@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
-import { AiFillEye, AiFillGithub } from "react-icons/ai";
+import { AiFillEye } from "react-icons/ai";
+import { FiGithub } from "react-icons/fi";
 import { motion } from "framer-motion";
 import { AppWrap, MotionWrap } from "../../wrapper";
 import { urlFor, client } from "../../client";
@@ -108,7 +109,7 @@ const Work = () => {
                     }}
                     className="app__flex"
                   >
-                    <AiFillGithub />
+                    <FiGithub />
                   </motion.div>
                 </a>
               </motion.div>
@@ -122,6 +123,32 @@ const Work = () => {
 
               <div className="app__work-tag app__flex ">
                 <p className="p-text">{work.tags[0]}</p>
+              </div>
+              <div className="app__works-links-content">
+                <a href={work.projectLink} target="blank" rel="noreferrer">
+                  <motion.div
+                    whileHover={{ scale: [1, 0.9] }}
+                    whileInView={{ sclae: [0, 1] }}
+                    transition={{
+                      duration: 0.25,
+                    }}
+                    className=" app__flex"
+                  >
+                    <AiFillEye />
+                  </motion.div>
+                </a>
+                <a href={work.codeLink} target="blank" rel="noreferrer">
+                  <motion.div
+                    whileHover={{ scale: [1, 0.9] }}
+                    whileInView={{ sclae: [0, 1] }}
+                    transition={{
+                      duration: 0.25,
+                    }}
+                    className=" app__flex"
+                  >
+                    <FiGithub />
+                  </motion.div>
+                </a>
               </div>
             </div>
           </div>
