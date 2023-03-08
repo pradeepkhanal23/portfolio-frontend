@@ -122,6 +122,20 @@
     height: 50%;
     color: var(--white-color);
   }
+
+  @media screen and (max-width: 800px) {
+    opacity: 1;
+    background-color: transparent;
+
+    div {
+      // background-color: rgba(100, 90, 83, 0.7);
+      background-color: rgba(0, 0, 0, 0.6);
+
+      svg {
+        color: var(--primary-color);
+      }
+    }
+  }
 }
 
 .app__work-content {
