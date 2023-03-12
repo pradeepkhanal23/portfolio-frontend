@@ -6,12 +6,12 @@ import "./App.scss";
 const App = () => {
   const [loading, setLoading] = useState(false);
 
-  // React.useEffect(() => {
-  //   setLoading(true);
-  //   setTimeout(() => {
-  //     setLoading(false);
-  //   }, 4500);
-  // }, []);
+  React.useEffect(() => {
+    setLoading(true);
+    setTimeout(() => {
+      setLoading(false);
+    }, 4500);
+  }, []);
 
   return (
     <>
