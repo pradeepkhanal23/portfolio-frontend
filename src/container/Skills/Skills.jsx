@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from "react";
 import { motion } from "framer-motion";
-import { Tooltip as ReactTooltip } from "react-tooltip";
-import "react-tooltip/dist/react-tooltip.css";
+import Tippy from "@tippyjs/react";
+import "tippy.js/dist/tippy.css";
+import "tippy.js/animations/perspective.css";
 import { AppWrap, MotionWrap } from "../../wrapper";
 import { urlFor, client } from "../../client";
 import "./Skills.scss";
@@ -58,26 +59,16 @@ const Skills = () => {
               <motion.div className="app__skills-exp-works">
                 {experience?.works?.map((work) => (
                   <div key={work.name}>
-                    <motion.div
-                      whileInView={{ opacity: [0, 1] }}
-                      transition={{ duration: 0.5 }}
-                      className="app__skills-exp-work"
-                      // data-tooptip-id={work.name}
-                      // data-tooltip-content={work.desc}
-                    >
-                      <h4 className="bold-text">{work.name}</h4>
-                      <p className="p-text">{work.company}</p>
-                    </motion.div>
-
-                    <ReactTooltip
-                      place="top"
-                      id={work.name}
-                      float="solid"
-                      arrowColor="#fff"
-                      className="skills-tooltip"
-                    >
-                      {work.desc}
-                    </ReactTooltip>
+                    <Tippy content={work.desc} animation="perspective">
+                      <motion.div
+                        whileInView={{ opacity: [0, 1] }}
+                        transition={{ duration: 0.5 }}
+                        className="app__skills-exp-work"
+                      >
+                        <h4 className="bold-text">{work.name}</h4>
+                        <p className="p-text">{work.company}</p>
+                      </motion.div>
+                    </Tippy>
                   </div>
                 ))}
               </motion.div>
