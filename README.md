@@ -1,70 +1,54 @@
-# Getting Started with Create React App
+# Portfolio Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a professional portfolio website created using React, Sass, Sanity CMS, and Framer Motion. It serves as a showcase of my work, skills, and experiences. The project was developed with the help of a YouTube video tutorial by JavaScript Mastery, and its contribution is duly acknowledged.
 
-## Available Scripts
+# Live Demo
 
-In the project directory, you can run:
+Visit here for the live demo https://pradeepkhanal.netlify.app/
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **React**: The website is built using the React JavaScript library, providing a modular and efficient component-based structure.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Sass**: Sass is used as a CSS preprocessor, allowing for the use of variables, mixins, and nested styles, making styling more maintainable and organized.
 
-### `npm test`
+- **Sanity CMS**: The website is integrated with Sanity CMS, which provides a user-friendly interface to manage and update content, such as project details, about, work, skills sections respectively along with personal informations as well.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Framer Motion**: Framer Motion is employed for adding smooth animations and transitions to enhance the user experience and provide a visually appealing presentation.
 
-### `npm run build`
+## Installation
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Clone the repository:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+   ```
+   git clone https://github.com/pradeepkhanal23/portfolio-frontend.git
+   ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+2. Install the dependencies:
 
-### `npm run eject`
+   ```
+   cd portfolio-frontend
+   npm install
+   ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+3. Configure Sanity CMS:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+   - Create a new Sanity project and obtain the project API token.
+   - Rename `.env.example` to `.env` and update the `SANITY_PROJECT_ID` and `SANITY_DATASET` variables with your project details.
+   - Set the `SANITY_TOKEN` variable with your Sanity API token.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+4. Start the development server:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+   ```
+   npm start
+   ```
 
-## Learn More
+5. Open your browser and visit `http://localhost:3000` to view the portfolio website.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Acknowledgements
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+This portfolio website was created with the assistance of the JavaScript Mastery YouTube channel. Their tutorial provided valuable insights and guidance throughout the development process. The contributions of JavaScript Mastery are greatly appreciated.
 
-### Code Splitting
+## License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is licensed under the [MIT License](LICENSE).
