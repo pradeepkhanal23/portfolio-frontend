@@ -2,6 +2,10 @@
 
 This is a professional portfolio website created using React, Sass, Sanity CMS, and Framer Motion. It serves as a showcase of my work, skills, and experiences. The project was developed with the help of a YouTube video tutorial by JavaScript Mastery, and its contribution is duly acknowledged.
 
+## Screenshot
+
+![Portfolio Website Screenshot](./src/assets/Screenshot%202023-07-06%20at%2012.02.04%20pm.png)
+
 # Live Demo
 
 Visit here for the live demo https://pradeepkhanal.netlify.app/
