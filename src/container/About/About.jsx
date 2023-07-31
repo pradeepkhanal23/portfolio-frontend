@@ -21,16 +21,16 @@ const About = () => {
         transition={{ duration: 0.4, delay: 0.1, type: "tween" }}
         className="head-text"
       >
-        I believe <span className="head-text">Good Designer</span>
+        I believe <span className="head-text">Perfect Design</span>
         <br />
-        designs<span className="head-text"> Good Company</span>
+        transforms<span className="head-text"> Vision to Reality</span>
       </motion.div>
       <div className="app__profiles">
         {abouts.map((about, index) => (
           <motion.div
             whileInView={{ opacity: [0, 1], y: [60, 0] }}
-            whileHover={{ scale: 1.2 }}
-            transition={{ duration: 0.4, type: "tween" }}
+            whileHover={{ scale: 1.1 }}
+            transition={{ duration: 0.4, type: "spring" }}
             className="app__profile-item"
             key={about.title + index}
           >

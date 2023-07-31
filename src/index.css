@@ -1,7 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Inter:wght@200;400;600;900&family=Poppins:wght@300;400;600;800&family=Sen:wght@400;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&family=Open+Sans:wght@300;400;500;600;700&family=Sen:wght@400;700;800&display=swap");
 
 :root {
-  --font-base: "Poppins", sans-serif;
+  --font-base: "Montserrat", "Open Sans", "Sen", sans-serif;
   --primary-color: #edf2f8;
   /* --secondary-color: #3179ac; */
   --secondary-color: #544179;
