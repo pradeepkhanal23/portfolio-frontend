@@ -1,6 +1,6 @@
 # Portfolio Website
 
-This is a professional portfolio website created using React, Sass, Sanity CMS, and Framer Motion. It serves as a showcase of my work, skills, and experiences. The project was developed with the help of a YouTube video tutorial by JavaScript Mastery, and its contribution is duly acknowledged.
+Welcome to my professional portfolio website. I have used React, Sass, Sanity CMS, and Framer Motion to create this website. It serves as a showcase of my work, skills, and experiences. The design inspiration of this portfolio website has been taken from JS mastery, and its contribution is duly acknowledged.
 
 ## Screenshot
 
