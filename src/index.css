@@ -1,7 +1,6 @@
-@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Open+Sans:wght@300;400;500;600;700&family=Sen:wght@400;700;800&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;800&family=Quicksand:wght@400;600;700&family=Rubik:wght@300;500;700&display=swap");
 :root {
-  --font-base: "Lato", "Sen", "Open Sans", sans-serif;
+  --font-base: "Quicksand", "Nunito", "Inter", system-ui, sans-serif;
   --primary-color: #edf2f8;
   /* --secondary-color: #3179ac; */
   --secondary-color: #544179;
@@ -10,7 +9,7 @@
   --lightGray-color: #e4e4e4;
   --gray-color: #7b7485;
   --gray-color-dark: #001e46;
-  --brown-color: #46364a;
+  --brown-color: #46364a
   --white-color: #ffffff;
   --light-purple: #a287f2;
   --dark-purple: #8681ab;

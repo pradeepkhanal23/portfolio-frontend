@@ -14,7 +14,7 @@ Visit here for the live demo https://pradeepkhanal.netlify.app/
 
 - **React**: The website is built using the React JavaScript library, providing a modular and efficient component-based structure.
 
-- **Sass**: Sass is used as a CSS preprocessor, allowing for the use of variables, mixins, and nested styles, making styling more maintainable and organized.
+- **Scss**: Scss is used as a CSS preprocessor, allowing for the use of variables, mixins, and nested styles, making styling more maintainable and organized.
 
 - **Sanity CMS**: The website is integrated with Sanity CMS, which provides a user-friendly interface to manage and update content, such as project details, about, work, skills sections respectively along with personal informations as well.
 
