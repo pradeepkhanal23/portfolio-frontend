@@ -26,13 +26,13 @@ const Navbar = () => {
           ))}
         </ul>
 
-        <a
+        {/* <a
           href={resume}
           className="app__navbar-download"
           download="Pradeep Khanal_resume"
         >
           Download CV
-        </a>
+        </a> */}
 
         <div className="app__navbar-menu">
           <HiMenuAlt4
