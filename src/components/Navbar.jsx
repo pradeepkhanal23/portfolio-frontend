@@ -29,7 +29,7 @@ const Navbar = () => {
         <a
           href={resume}
           className="app__navbar-download"
-          download="Pradeep's_resume"
+          download="Pradeep Khanal_resume"
         >
           Download CV
         </a>
